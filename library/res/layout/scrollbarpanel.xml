@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.dafruits.android.library.widgets.DafruitsPanel
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:dafruits="http://schemas.android.com/apk/res/com.dafruits.android.library.widgets"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="left|center_vertical"
+    android:singleLine="true"
+    android:ellipsize="none"
+    android:textColor="#ffffffff"
+    android:textSize="14sp"
+    android:textStyle="bold"
+    android:shadowColor="#ff000000"
+    android:shadowDx="0"
+    android:shadowDy="-1"
+    android:shadowRadius="0.1"   
+    dafruits:drawableRoundCounter="@drawable/bg"   
+    dafruits:paddingRoundCounter="15dp" 
+    dafruits:RoundCounter_height="1.0"    
+    dafruits:RoundCounter_LineAlpha="0.1"
+    android:background="@drawable/background_scrollbarpanel" />
