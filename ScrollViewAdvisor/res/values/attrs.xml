@@ -1,0 +1,15 @@
+<resources>
+    <declare-styleable name="ExtendedListView">
+        <attr name="scrollBarPanel" format="reference" />
+        <attr name="scrollBarPanelInAnimation" format="reference" />
+        <attr name="scrollBarPanelOutAnimation" format="reference" />
+    </declare-styleable>
+    <declare-styleable name="DafruitsPanel">
+        <attr name="drawableRoundCounter" format="reference" />
+        <attr name="paddingRoundCounter" format="dimension"/>
+        <attr name="EnablingRoundCounter" format="boolean"/>
+        <attr name="RoundCounter_height" format="float"/>
+        <attr name="RoundCounter_lineColor" format="color"/>
+        <attr name="RoundCounter_LineAlpha" format="float"/>           
+    </declare-styleable>
+</resources>
